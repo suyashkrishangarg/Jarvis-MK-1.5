@@ -65,7 +65,6 @@ def speechrecognition(Print=True, Translate=False):
             
         final_text += text[length:]
         previous_text = text
-        L = t()
 
     if Translate:
         L = t()
